@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+  
+    
+}
+header nav{
+    width: 100%;
+    background-color: white;
+    padding: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url();
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+li{
+    list-style-type: none;
+}
+.user-icon img{
+width: 79px;
+}
+.image2{
+ width: 800px;
+ text-align: center;
+padding: 100px;
+}
+.image1{
+    width: 150px;
+    position: absolute;
+    right: 650px;
+    top: 100px;
+
+}
+.pre{
+  
+    position: absolute;
+    right: 650px;
+    top: 100px ;
+
+}
+.card body{
+position: absolute;
+right: 650px;
+top: 100px; ;
+}
+.card{
+    width: 22%;
+    position: absolute;
+    left: 60px;
+    height:76px ;
+}
+.cola{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+}
+.div1{
+    display:flex;
+    justify-content: left;
+    position: absolute;
+    padding: 3%;
+}
+.image3{
+    width: 800px;
+ text-align: center;
+padding: 100px;
+right: 650px;
+justify-content: center;
+}
+.button1{
+  width:13% ;
+  height: 25px;  
+}
+.img{
+    width: 100%;
+}
+.box{
+    position: relative;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 200px;
+}
+.container2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.container2 button{
+    position: absolute;
+    bottom: 20px;
+    right: 20%;
+     transform: translateY(-50%);
+}
